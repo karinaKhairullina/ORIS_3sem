@@ -1,0 +1,101 @@
+/*это чтобы красивенько выглядела верхушка*/
+header {
+    background: #847462;
+    color: #FFFFFF
+}
+
+/* Слайдер */
+.slider{
+    max-width: 60%;
+    position: relative;
+    margin: auto;
+    height: 700px;
+}
+
+.slider .item img {
+    /*как должна быть картинака относительно его высоты и ширины*/
+    object-fit: cover;
+    width: 100%;
+    height: 700px;
+}
+/* Кнопки туда и сюда */
+.slider .previous, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляется фон кнопок */
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/* Анимация слайдов */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.advantages {
+  width: 510px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+  font-weight: bold;
+}
+.advantages-list {
+  padding: 0;
+  list-style: none;
+}
+
+.advantages-item {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  border-left: 20px solid #87CEEB;
+  color: #000000;
+}
+
+.site-footer {
+  min-width: 10px;
+  background-color: #847462;
+  color: #ffffff;
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+   button{
+    background:#847462;
+    padding: 5px 7px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width:250px;
+    height:50px;
+    display: block;
+    margin: 0 auto;
+    font-size:1.0vw;
+   }

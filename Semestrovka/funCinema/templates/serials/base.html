@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+<body>
+    <div class = "box-area">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="#">Fun Cinema</a>
+                </div>
+                <nav>
+                    <a href="{% url 'serials_list' %}">Главная</a>
+                    <a href="{% url 'single_serial' %}">Сериалы</a>
+                    <a href="#">Войти</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+{% block content %}
+{% endblock %}
+</body>
+</html>

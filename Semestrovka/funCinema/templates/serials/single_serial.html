@@ -9,11 +9,8 @@
     <link rel="stylesheet" href="{% static 'css/serial_det.css' %}">
 </head>
 <body>
-<div class="adds" style="top: 100px;  position: sticky;">
-    <strong><a href="{% url 'add' %}">Добавить сериал</a></strong>
-</div>
 
-<div class="container" style="grid-template-columns: repeat(auto-fill,300px);margin: 100px 250px 0 150px;">
+<div class="container" style="grid-template-columns: repeat(auto-fill,300px);margin: 150px 400px 20px 10px;">
             {%for serial in serials %}
                     <div class="item">
                     {% if serial.poster %}

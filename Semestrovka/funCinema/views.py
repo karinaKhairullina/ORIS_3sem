@@ -1,10 +1,8 @@
-from django.contrib.auth.forms import UserCreationForm
-from django.shortcuts import render, get_object_or_404
-from django.urls import reverse_lazy
+from django.shortcuts import render, get_object_or_404, redirect
 from django.views import View
-from django.views.generic.edit import CreateView
 from .models import Actor
 from .models import Serials
+from .forms import Form
 
 
 class SerialsView(View):
@@ -31,10 +29,23 @@ class ActorView(View):
         return render(request, "serials/actor.html", {"serial": serial})
 
 
-class AddView(CreateView):
-    model = Serials
-    template_name = 'serials/add.html'
-    fields = ['title', 'description', 'date', 'country', 'actors']
+def add_list(request):
+    context = {'list' : Serials.objects.all()}
+    return render(request, 'serials/mySerial.html',context)
+
+
+def serials_form(request):
+    if request.method == "GET":
+        form = Form()
+        return render(request, 'serials/serials_form.html', {'form': form})
+    else:
+        form = Form(request.POST)
+        if form.is_valid():
+            form.save()
+        return redirect('/list/')
+
+def delete_list(request):
+    return
 
 
 class Register(View):

@@ -1,0 +1,30 @@
+{% extends 'serials/base_form.html' %}
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/add.css' %}">
+</head>
+<body>
+<table class = 'table'>
+    <thead class = 'border-bottom'>
+        <tr>
+            <td>Название</td>
+            <td>Жанр</td>
+            <td>Ссылка</td>
+        </tr>
+    </thead>
+    <tbody>
+        {% for serials in list %}
+            <tr>
+                <td>{{ serials.title }}</td>
+                <td>{{ serials.genre }}</td>
+                <td>{{ serials.link }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

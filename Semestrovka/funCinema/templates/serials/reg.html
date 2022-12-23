@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/reg.css' %}">
+</head>
+<body>
+ <form class="login-page">
+     <div class="form">
+         <form class="login-form">
+            <input type="text" id="rName" placeholder="Login"/>
+            <input type="password" id="rPassword"  placeholder="Password"/>
+            <input type="text" id="rEmail" placeholder="E-mail"/>
+            <a href={% url 'serials_list' %}>Создать аккаунт</a>
+            <p class="message"><a href="{% url 'register' %}">Нет аккаунта? </a></p>
+        </form>
+</body>
+</html>

@@ -2,115 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477786b1-d4b2-44ea-813a-9bc94923e636" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ControlWork/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ControlWork/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ControlWork/web/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/FourthHW/app/enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/FourthHW/app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/FourthHW/app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/FourthHW/templates/web/add_film.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/FourthHW/templates/web/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/FourthHW/templates/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/FourthHW/templates/web/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/FourthHW/templates/web/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/HW5/PythonQT/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/static/css/actor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/static/css/add.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/static/css/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/static/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/static/css/serial_det.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/static/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/templates/serials/actor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/templates/serials/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/templates/serials/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/templates/serials/detail_serial.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/templates/serials/serials_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/templates/serials/single_serial.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/funCinema/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-10.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-10_9RkccFt.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-11.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-12.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-13.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-14.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-15.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-2_KwIxhEX.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-2_sXaOISr.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-3_8EhojQf.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-4_oTaS1EO.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-4_tJOeyDv.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-5_Ro5k0CE.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-5_dCfgI0N.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-6_zYIqjHk.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-6_zyvg9xC.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-7.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-7_hQnh286.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-8.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-8_9sinJUD.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-9.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900-9_hP6ehz3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900_J19DewS.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SemestrWork/media/actors/600x900_MhBbT28.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../controlSecond2/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../controlSecond2/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.03.58.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.11.53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.18.29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.19.54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.20.12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.20.26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.20.55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.21.00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.21.03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.21.06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.21.09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.21.12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.21.17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.21.20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.21.22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.24.41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/2022-09-15 17.26.25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/40873321-939B-49D9-994D-F1B199B7394D.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/FirstHomework.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/FirstHomework.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/FirstHW/FirstHomework.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/.idea/ThirdHW.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/ThirdHW/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/ThirdHW/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/ThirdHW/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/ThirdHW/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/ThirdHW/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/main/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/main/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/main/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/main/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/main/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/main/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/main/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/main/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/main/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/ThirdHW/templates/main2.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/funCinema/static/css/auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funCinema/static/css/reg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funCinema/templates/serials/reg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funCinema/templates/serials/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/serials_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/serials_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/single_serial.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/single_serial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -137,22 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/karina/Desktop/khairullina112_HW/Semestrovka/funCinema&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/karina/Documents/GitHub/khairullina112_HW/Semestrovka",
+    "list.type.of.created.stylesheet": "CSS"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;oracle&quot;,
-      &quot;mysql&quot;,
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle",
+      "mysql",
+      "sqlite"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/funCinema" />
@@ -194,6 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671800071558</updated>
       <workItem from="1671800082530" duration="10507000" />
+      <workItem from="1671820033813" duration="10050000" />
     </task>
     <servers />
   </component>

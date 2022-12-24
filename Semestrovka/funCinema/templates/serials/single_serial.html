@@ -2,7 +2,6 @@
 {% extends 'serials/base.html' %}
 {% load static %}
 {% block content %}
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,16 +13,21 @@
     <strong><a href="{% url 'add' %}">Добавить сериал</a></strong>
 </div>
 
-<div class="container" style="grid-template-columns: repeat(auto-fill, 300px);">
-    {% for serial in serials %}
-        <div class="item">
-            <img src="{{ serial.poster.url }}" class="img-fluid" alt="">
-                <p>
-                    <a href="{% url 'detail_serial' serial.url %}">{{ serial.title }}</a>
-                </p>
-        </div>
-     {% endfor %}
+<div class="container" style="grid-template-columns: repeat(auto-fill,300px);margin: 100px 250px 0 150px;">
+            {%for serial in serials %}
+                    <div class="item">
+                    {% if serial.poster %}
+                        <img src="{{ serial.poster.url }}" class="img-fluid"
+                        alt="">
+                    {% endif %}
+                     {% if serial.title %}
+                            <p>
+                                <a href="{% url 'detail_serial' serial.id %}">{{ serial.title }}</a>
+                            </p>
+                    {% endif %}
+                    </div>
+            {% endfor %}
+{% endblock %}
 </div>
 </body>
-{% endblock %}
 </html>

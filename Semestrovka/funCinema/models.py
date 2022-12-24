@@ -52,8 +52,6 @@ class Serials(models.Model):
         verbose_name = 'Сериал'
         verbose_name_plural = 'Сериалы'
 
-
-
 class Cadrs(models.Model):
     name = models.CharField('Заголовок', max_length= 100)
     image = models.ImageField()

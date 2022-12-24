@@ -3,7 +3,7 @@ from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
 from django.views import View
 from django.views.generic.edit import CreateView
-from .models import Actor, Genre
+from .models import Actor
 from .models import Serials
 
 
@@ -16,13 +16,12 @@ class SerialsView(View):
 class SerialDetailView(View):
     def get(self, request):
         serials = Serials.objects.all()
-        genres = Genre.objects.all()
-        return render(request, "serials/single_serial.html", {"serials": serials, "genres": genres})
+        return render(request, "serials/single_serial.html", {"serials": serials})
 
 
 class SingleSerial(View):
-    def get(self, request, slug):
-        serial = get_object_or_404(Serials, url=slug)
+    def get(self, request, id):
+        serial = get_object_or_404(Serials, id=id)
         return render(request, "serials/detail_serial.html", {"serial": serial})
 
 

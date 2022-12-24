@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477786b1-d4b2-44ea-813a-9bc94923e636" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/funCinema/static/css/auth.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funCinema/static/css/reg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funCinema/templates/serials/reg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funCinema/templates/serials/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semestrovka/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Semestrovka/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funCinema/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/serials_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/serials_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/single_serial.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/single_serial.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/views.py" afterDir="false" />
@@ -40,23 +35,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/karina/Documents/GitHub/khairullina112_HW/Semestrovka",
-    "list.type.of.created.stylesheet": "CSS"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/karina/Documents/GitHub/khairullina112_HW/Semestrovka&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "oracle",
-      "mysql",
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;,
+      &quot;mysql&quot;,
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/funCinema" />
@@ -98,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1671800071558</updated>
       <workItem from="1671800082530" duration="10507000" />
-      <workItem from="1671820033813" duration="10050000" />
+      <workItem from="1671820033813" duration="13465000" />
+      <workItem from="1671880811738" duration="4038000" />
     </task>
     <servers />
   </component>

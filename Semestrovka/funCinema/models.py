@@ -34,7 +34,7 @@ class Serials(models.Model):
     title = models.CharField('Название',max_length=100)
     description = models.CharField('Описание', max_length= 200)
     poster = models.ImageField('Постер', upload_to='serials/')
-    date = models.DateField('Дата выхода')
+    date = models.DateField('Дата выхода', null=True)
     country = models.CharField('Страна',max_length=100)
     actors = models.ManyToManyField(Actor, verbose_name='актеры', related_name='actor')   # использование M2M
     # related name позволяет запрашивать связанные сущности из бд

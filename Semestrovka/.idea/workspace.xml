@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="477786b1-d4b2-44ea-813a-9bc94923e636" name="Changes" comment="">
+    <list default="true" id="477786b1-d4b2-44ea-813a-9bc94923e636" name="Changes" comment="sw">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funCinema/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funCinema/templates/serials/base_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funCinema/templates/serials/serials_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Semestrovka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Semestrovka.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Semestrovka/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Semestrovka/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/mySerial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/detail_serial.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/detail_serial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/reg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/serials_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/serials_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/single_serial.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/single_serial.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/views.py" afterDir="false" />
@@ -17,9 +27,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,23 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/karina/Documents/GitHub/khairullina112_HW/Semestrovka&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/karina/Documents/GitHub/khairullina112_HW/Semestrovka",
+    "list.type.of.created.stylesheet": "CSS"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;oracle&quot;,
-      &quot;mysql&quot;,
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+    ],
+    "DatabaseDriversLRU": [
+      "oracle",
+      "mysql",
+      "sqlite"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/funCinema" />
@@ -94,7 +108,9 @@
       <updated>1671800071558</updated>
       <workItem from="1671800082530" duration="10507000" />
       <workItem from="1671820033813" duration="13465000" />
-      <workItem from="1671880811738" duration="4038000" />
+      <workItem from="1671880811738" duration="4912000" />
+      <workItem from="1671962988433" duration="4227000" />
+      <workItem from="1672057839409" duration="7238000" />
     </task>
     <servers />
   </component>
@@ -111,5 +127,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="com2" />
+    <option name="LAST_COMMIT_MESSAGE" value="com2" />
   </component>
 </project>

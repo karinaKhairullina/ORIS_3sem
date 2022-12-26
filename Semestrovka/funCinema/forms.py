@@ -5,10 +5,9 @@ from .models import Serials
 class Form(forms.ModelForm):
     class Meta:
         model = Serials
-        fields = ('title', 'genre', 'link')
+        fields = ('title', 'link')
         labels = {
             'title': 'Название',
-            'genre': 'Жанр',
             'link': 'Ссылка'
         }
 

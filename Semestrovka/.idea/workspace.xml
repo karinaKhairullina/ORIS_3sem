@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477786b1-d4b2-44ea-813a-9bc94923e636" name="Changes" comment="sw">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funCinema/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funCinema/templates/serials/base_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funCinema/templates/serials/serials_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Semestrovka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Semestrovka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funCinema/templates/users/Login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funCinema/templates/users/signUp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Semestrovka/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Semestrovka/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funCinema/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/mySerial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/static/css/auth.css" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/static/css/auth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/static/js/script.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/detail_serial.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/detail_serial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/reg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/serials_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/serials_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/single_serial.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/single_serial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/base_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/base_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/mySerial.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/mySerial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/reg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/serials_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/serials_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/views.py" afterDir="false" />
     </list>
@@ -46,30 +45,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/karina/Documents/GitHub/khairullina112_HW/Semestrovka",
-    "list.type.of.created.stylesheet": "CSS"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/karina/Documents/GitHub/khairullina112_HW/Semestrovka&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
     ],
-    "DatabaseDriversLRU": [
-      "oracle",
-      "mysql",
-      "sqlite"
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;,
+      &quot;mysql&quot;,
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/funCinema" />
       <recent name="$PROJECT_DIR$/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/funCinema/templates/users" />
     </key>
   </component>
   <component name="RunManager">
@@ -110,7 +112,8 @@
       <workItem from="1671820033813" duration="13465000" />
       <workItem from="1671880811738" duration="4912000" />
       <workItem from="1671962988433" duration="4227000" />
-      <workItem from="1672057839409" duration="7238000" />
+      <workItem from="1672057839409" duration="23200000" />
+      <workItem from="1672090032368" duration="53000" />
     </task>
     <servers />
   </component>

@@ -6,15 +6,15 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
 h2{
     font-size: 35px;
     color: black;
-    padding: 0px 300px 40px 600px;
+    padding: 00px 300px 40px 600px;
 }
 
 .container{
     font-size: 30px;
     margin-top: 10px;
     text-align: center;
-    width: 1000px;
-    padding: 0px 350px 400px 200px;
+    width: 250px;
+    padding: 10px 350px 400px 570px;
 }
 
 .custom-btn {
@@ -27,4 +27,3 @@ h2{
     margin-top: 10px;
 
 }
-

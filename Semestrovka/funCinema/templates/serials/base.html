@@ -12,8 +12,11 @@
             <div class="wrapper">
                 <div class="logo">
                     <a href="#">Fun Cinema</a>
+                    <a style="inset-inline: auto">{{ user.username }}</a>
                 </div>
                 <nav>
+                                    <a button type="submit" id="submit" onclick="alerted();">
+                        Правила пользования</a>
                     <a href="{% url 'serials_list' %}">Главная</a>
                     <a href="{% url 'single_serial' %}">Сериалы</a>
                     <a href="{% url 'list' %}">Мои cериалы</a>

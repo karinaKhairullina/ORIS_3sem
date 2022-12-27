@@ -1,12 +1,10 @@
-from django.contrib.auth.decorators import login_required
+from django.contrib import messages
+from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import render, get_object_or_404, redirect
 from django.views import View
 from .models import Actor
 from .models import Serials
-from .forms import Form
-from django.contrib.auth.models import User
-from django.contrib.auth import authenticate, login, logout
-from django.http import HttpResponse
+from .forms import Form, UserRegisterForm
 
 
 class SerialsView(View):
@@ -63,38 +61,13 @@ def delete_list(request, id):
     return redirect('/list/')
 
 
-@login_required
-def Register(request):
-    if request.method == 'POST':
-        name = request.POST.get('name')
-        name = request.POST.get('uname')
-        email = request.POST.get('email')
-        password = request.POST.get('pass')
-
-        new_user = User.objects.create_user(name, email, password)
-        new_user.first_name = name
-
-        new_user.save()
-        return redirect('login')
-
-    return render(request, 'users/signUp.html', {})
-
-
-def Login(request):
-    if request.method == 'POST':
-        name = request.POST.get('uname')
-        password = request.POST.get('pass')
-
-        user = authenticate(request, username=name, password=password)
-        if user is not None:
-            login(request, user)
+def register(request):
+    if request.method == "POST":
+        form = UserRegisterForm(request.POST)
+        if form.is_valid():
+            form.save()
             return redirect('serials_list')
-        else:
-            return HttpResponse('Error, user does not exist')
+    else:
+        form = UserRegisterForm()
+    return render(request, 'users/register.html', {'form': form})
 
-    return render(request, 'users/login.html', {})
-
-
-def logoutuser(request):
-    logout(request)
-    return redirect('login-page')

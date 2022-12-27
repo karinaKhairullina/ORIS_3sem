@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477786b1-d4b2-44ea-813a-9bc94923e636" name="Changes" comment="sw">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/funCinema/static/css/log.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/funCinema/static/js/cookie.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/funCinema/templates/users/login.html" afterDir="false" />
@@ -15,6 +16,22 @@
       <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/serials_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/serials_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/templates/users/Login.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/templates/users/signUp.html" beforeDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funCinema/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funCinema/templates/serials/base_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funCinema/templates/serials/serials_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Semestrovka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Semestrovka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semestrovka/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Semestrovka/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/mySerial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/detail_serial.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/detail_serial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/reg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/serials_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/serials_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funCinema/templates/serials/single_serial.html" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/templates/serials/single_serial.html" afterDir="false" />
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
       <change beforePath="$PROJECT_DIR$/funCinema/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funCinema/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/funCinema/views.py" afterDir="false" />
     </list>
@@ -26,10 +43,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="Python Script" />
         <option value="HTML File" />
+=======
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -45,6 +67,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
@@ -62,9 +85,28 @@
       &quot;oracle&quot;,
       &quot;mysql&quot;,
       &quot;sqlite&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/karina/Documents/GitHub/khairullina112_HW/Semestrovka",
+    "list.type.of.created.stylesheet": "CSS"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+    ],
+    "DatabaseDriversLRU": [
+      "oracle",
+      "mysql",
+      "sqlite"
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/funCinema" />
@@ -112,9 +154,13 @@
       <workItem from="1671820033813" duration="13465000" />
       <workItem from="1671880811738" duration="4912000" />
       <workItem from="1671962988433" duration="4227000" />
+<<<<<<< HEAD
       <workItem from="1672057839409" duration="23200000" />
       <workItem from="1672090032368" duration="53000" />
       <workItem from="1672144054840" duration="4978000" />
+=======
+      <workItem from="1672057839409" duration="7238000" />
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
     </task>
     <servers />
   </component>
@@ -136,7 +182,10 @@
     <MESSAGE value="com2" />
     <option name="LAST_COMMIT_MESSAGE" value="com2" />
   </component>
+<<<<<<< HEAD
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Semestrovka$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1672090221241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/funCinema" />
   </component>
+=======
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
 </project>

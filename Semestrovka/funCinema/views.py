@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 from django.contrib import messages
 from django.contrib.auth.forms import UserCreationForm
+=======
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
 from django.shortcuts import render, get_object_or_404, redirect
 from django.views import View
 from .models import Actor
 from .models import Serials
+<<<<<<< HEAD
 from .forms import Form, UserRegisterForm
+=======
+from .forms import Form
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
 
 
 class SerialsView(View):
@@ -32,8 +39,27 @@ class ActorView(View):
 
 
 def add_list(request):
+<<<<<<< HEAD
     context = {'list': Serials.objects.all()}
     return render(request, 'serials/mySerial.html', context)
+=======
+    context = {'list' : Serials.objects.all()}
+    return render(request, 'serials/mySerial.html',context)
+
+
+def serials_form(request):
+    if request.method == "GET":
+        form = Form()
+        return render(request, 'serials/serials_form.html', {'form': form})
+    else:
+        form = Form(request.POST)
+        if form.is_valid():
+            form.save()
+        return redirect('/list/')
+
+def delete_list(request):
+    return
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
 
 
 def serials_form(request, id=0):

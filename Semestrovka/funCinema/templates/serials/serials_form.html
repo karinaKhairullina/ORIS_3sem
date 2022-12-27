@@ -9,6 +9,7 @@
 {% block content %}
 <form action="" method="post" autocomplete="off">
     {% csrf_token %}
+<<<<<<< HEAD
     {{ form }}
     <div class="row">
         <div class="col">
@@ -20,6 +21,13 @@
             </a>
         </div>
     </div>
+=======
+    {{ form}}
+<button type="submit" class="btn btn-success">
+    <i class="fas fa-database"></i>
+     Сохранить
+</button>
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
 </form>
 {% endblock %}
 </body>

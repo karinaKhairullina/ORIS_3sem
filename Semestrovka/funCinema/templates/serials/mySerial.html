@@ -1,31 +1,43 @@
 {% extends 'serials/base_form.html' %}
 <!DOCTYPE html>
 {% load static %}
+<<<<<<< HEAD
 {% block content %}
+=======
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="{% static 'css/add.css' %}">
 </head>
+<<<<<<< HEAD
 <a href="{% url 'serials_list' %}">На главную страницу</a>
+=======
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
 <body>
 <table class = 'table'>
     <thead class = 'border-bottom'>
         <tr>
             <td>Название</td>
+<<<<<<< HEAD
             <td>Ссылка</td>
             <td>
                 <a href="{% url 'insert' %}" class="btn">
                     <i class="fas fa-plus"></i> Добавить
                 </a>
             </td>
+=======
+            <td>Жанр</td>
+            <td>Ссылка</td>
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
         </tr>
     </thead>
     <tbody>
         {% for serials in list %}
             <tr>
                 <td>{{ serials.title }}</td>
+<<<<<<< HEAD
                 <td>{{ serials.link }}</td>
                 <td>
                     <a href="{% url 'update' serials.id %}" class="btn">
@@ -38,10 +50,18 @@
                         </button>
                     </form>
                 </td>
+=======
+                <td>{{ serials.genre }}</td>
+                <td>{{ serials.link }}</td>
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
             </tr>
         {% endfor %}
     </tbody>
 </table>
 </body>
+<<<<<<< HEAD
 </html>
 {% endblock  %}
+=======
+</html>
+>>>>>>> e7ded3b67c590bafff423e92a137fc3d214f3c49
